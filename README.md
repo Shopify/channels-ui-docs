@@ -61,4 +61,4 @@ ReactDOM.render(
 );
 ```
 
-See the [Getting started]("https://github.com/Shopify/channels-ui-docs/blob/main/LICENSE.md") guide for more information on how to build a simple marketplace channel app experience. 
+See the [Getting started](https://github.com/Shopify/channels-ui-docs/blob/main/Getting%20started.md) guide for more information on how to build a simple marketplace channel app experience. 
