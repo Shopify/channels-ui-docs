@@ -58,6 +58,11 @@ The `polaris` prop is an object that accepts all props from the [Polaris App Pro
 
 The introduction page is the welcome screen of a channel. Its main goal is to help a merchant understand the value of the channel and choose the right starting point.
 
+![Introduction component image](/images/introduction-component.png)
+
+1. Single-feature channel
+2. Channel with multiple features
+
 The structure of the page depends on the number of features a channel has to offer. A feature is a tool you offer merchants to interact with and succeed on your platform (ex. Paid Ads, Organic Listings, Web Checkout).
 
 Here is an example of a simple introduction page if your channel only has a single feature. The Feature Card's `children` should provide a visual representation of the feature the merchant is onboarding onto, or can surface your platform's brand.
@@ -97,6 +102,13 @@ export default function MyIntroductionPage() {
 ## Onboarding Page
 
 An onboarding page contains a sequence of steps a merchant needs to complete to set up a feature. This process is crucial to a merchant's success, so make sure you present channel requirements and other relevant information up-front if applicable.
+
+![Onboarding component image](/images/onboarding-component.png)
+
+1. Informational banner
+2. Product status details
+3. Available channel features
+4. Resources and tutorials 
 
 Here is an example of a simple onboarding page containing account connection and terms acceptance steps.
 
@@ -220,6 +232,11 @@ export default function MyOnboardingPage() {
 
 The goal of the overview page is to serve as a channel’s home page. It gives merchants a central place for management, discovery, and education to help them succeed with the channel. This page should be displayed instead of the introduction page once a merchant has onboarded onto their first feature.
 
+![Overview component image](/images/onboarding-component.png)
+
+1. Completed onboarding steps
+2. Current or active step
+
 ### Product Sync Section
 
 This component gives merchants an overview of their products and their status on the channel. It should also provide a link to the bulk editor so merchants can easily manage which products they make available to your channel. If your channel has product requirements, merchants should be able to quickly glance at the card and understand how many products are in good standing, versus requiring additional attention to get them successfully synced onto the channel.
@@ -318,7 +335,12 @@ export default function MyOverviewPage() {
 
 ## Settings Page
 
-After merchants onboard onto your channel, they will be able to access their accounts and other settings related to the channel on the settings page. This page should be added as a
+After merchants onboard onto your channel, they will be able to access their accounts and other settings related to the channel on the settings page. 
+
+![Settings component image](/images/settings-component.png)
+
+1. Simple settings with in one page
+2. Complex settings with multiple pages in tabs
 
 Here is an example of a simple settings page that allows the merchant to connect/disconnect their account.
 
