@@ -105,10 +105,8 @@ An onboarding page contains a sequence of steps a merchant needs to complete to 
 
 ![Onboarding component image](images/onboarding-component.png)
 
-1. Informational banner
-2. Product status details
-3. Available channel features
-4. Resources and tutorials 
+1. Completed onboarding steps
+2. Current or active step
 
 Here is an example of a simple onboarding page containing account connection and terms acceptance steps.
 
@@ -234,8 +232,10 @@ The goal of the overview page is to serve as a channel’s home page. It gives m
 
 ![Overview component image](images/overview-component.png)
 
-1. Completed onboarding steps
-2. Current or active step
+1. Informational banner
+2. Product status details
+3. Available channel features
+4. Resources and tutorials 
 
 ### Product Sync Section
 
