@@ -232,7 +232,7 @@ export default function MyOnboardingPage() {
 
 The goal of the overview page is to serve as a channel’s home page. It gives merchants a central place for management, discovery, and education to help them succeed with the channel. This page should be displayed instead of the introduction page once a merchant has onboarded onto their first feature.
 
-![Overview component image](images/onboarding-component.png)
+![Overview component image](images/overview-component.png)
 
 1. Completed onboarding steps
 2. Current or active step
