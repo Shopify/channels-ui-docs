@@ -58,7 +58,7 @@ The `polaris` prop is an object that accepts all props from the [Polaris App Pro
 
 The introduction page is the welcome screen of a channel. Its main goal is to help a merchant understand the value of the channel and choose the right starting point.
 
-![Introduction component image](/images/introduction-component.png)
+![Introduction component image](images/introduction-component.png)
 
 1. Single-feature channel
 2. Channel with multiple features
@@ -103,7 +103,7 @@ export default function MyIntroductionPage() {
 
 An onboarding page contains a sequence of steps a merchant needs to complete to set up a feature. This process is crucial to a merchant's success, so make sure you present channel requirements and other relevant information up-front if applicable.
 
-![Onboarding component image](/images/onboarding-component.png)
+![Onboarding component image](images/onboarding-component.png)
 
 1. Informational banner
 2. Product status details
@@ -232,7 +232,7 @@ export default function MyOnboardingPage() {
 
 The goal of the overview page is to serve as a channel’s home page. It gives merchants a central place for management, discovery, and education to help them succeed with the channel. This page should be displayed instead of the introduction page once a merchant has onboarded onto their first feature.
 
-![Overview component image](/images/onboarding-component.png)
+![Overview component image](images/onboarding-component.png)
 
 1. Completed onboarding steps
 2. Current or active step
@@ -337,7 +337,7 @@ export default function MyOverviewPage() {
 
 After merchants onboard onto your channel, they will be able to access their accounts and other settings related to the channel on the settings page. 
 
-![Settings component image](/images/settings-component.png)
+![Settings component image](images/settings-component.png)
 
 1. Simple settings with in one page
 2. Complex settings with multiple pages in tabs
