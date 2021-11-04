@@ -1,6 +1,6 @@
 # User experience principles
 
-Channel UX principles are inspired by Shopify values and are at the core of how we build our channels.
+Channel UX principles are inspired by [Shopify Values](https://polaris.shopify.com/foundations/experience-values "Shopify values") Shopify values and are at the core of how we build our channels.
 
 ---
 
