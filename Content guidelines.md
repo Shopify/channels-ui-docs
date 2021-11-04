@@ -42,9 +42,9 @@ While merchants are setting up their channel they may need to take an action out
 
 **Best practices:**
 
-1. Tell merchants where they need to go to resolve the issue, and be clear about when they are leaving Shopify
-2. Provide a direct link or guide them
-3. Tell merchants what they need to do after they leave Shopify
+1. Tell merchants where they need to go to resolve the issue, and be clear about when they are leaving Shopify.
+2. Provide a direct link or guide them.
+3. Tell merchants what they need to do after they leave Shopify.
 
 ---
 
@@ -58,8 +58,8 @@ If there are new requirements for your channel or important information that mer
 
 **Best practices:**
 
-1. Tell the merchants if any action is required of them
-2. When possible, add a relevant date or time
-3. Let merchants know how long this announcement may affect them and if there are any consequences
-4. If there’s ever impact on their store or sales, be upfront
-5. Link to a solution or provide documentation on the change
+1. Tell the merchants if any action is required of them.
+2. When possible, add a relevant date or time.
+3. Let merchants know how long this announcement may affect them and if there are any consequences.
+4. If there’s ever impact on their store or sales, be upfront.
+5. Link to a solution or provide documentation on the change.
