@@ -6,19 +6,19 @@ When you’re creating content for a sales channel, use Shopify’s [voice and t
 
 > Note
 >
-> > When building the channel, use feature names and titles from your platform without altering and make sure they refer to the same things in Shopify.
+> > When building the channel, use the names of features you have on your platform without altering, so that merchants can recognize them when they leave Shopify admin and use your platform. 
 
 ---
 
 ## Specific content use cases
 
-Channels are a bridge between Shopify and your platform. Unique messages and patterns may be required to communicate correctly, and they will differ from what merchants are used to seeing in Shopify. That’s okay.
+Channels are a bridge between Shopify and your platform. To communicate correctly, you might require unique messaging and patterns that will differ from what merchants are used to seeing in Shopify. That’s okay.
 
 ---
 
 ## Communicating external errors
 
-Sometimes our merchants might run into errors that are caused by something out of Shopify’s control. We have patterns in place for internal errors, but this is how we would communicate an external problem.
+When merchants run into errors that are caused by something out of Shopify’s control, this is how you can communicate it.
 
 |                                                                                               |                                                                                                     |
 | --------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -61,5 +61,5 @@ If there are new requirements for your channel or important information that mer
 1. Tell the merchants if any action is required of them
 2. When possible, add a relevant date or time
 3. Let merchants know how long this announcement may affect them and if there are any consequences
-4. If there’s ever impact on their store or sales, be up front
+4. If there’s ever impact on their store or sales, be upfront
 5. Link to a solution or provide documentation on the change
