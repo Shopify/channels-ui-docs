@@ -1,6 +1,6 @@
 # User experience principles
 
-Channel UX principles are inspired by [Shopify Values](https://polaris.shopify.com/foundations/experience-values "Shopify values") Shopify values and are at the core of how we build our channels.
+Channel UX principles are inspired by [Shopify Values](https://polaris.shopify.com/foundations/experience-values "Shopify values") and are at the core of how we build our channels.
 
 ---
 
@@ -18,7 +18,7 @@ Help our merchants get set up as quickly as possible.
 Build on the trust that Shopify has with our merchants.
 
 - Be upfront and honest with merchants about requirements before they start using the channel. When a merchant is stuck, always provide a clear path forward or offer a solution.
-- Introduce marketing and feature promotions so they don’t interfere with merchants completing their tasks.
+- Introduce marketing and feature promotions in a way that doesn’t interfere with merchants completing their tasks.
 - Adhere to honest, transparent business and commerce practices.
 
 ---
@@ -37,4 +37,4 @@ Focus on helping merchants succeed with your channel.
 Make it easy for merchants to use your channel.
 
 - Make every part of the merchant’s workflow consistent with Shopify. Merchants don’t perceive a difference between Shopify and a specific channel.
-- Create consistency with Shopify’s channel component library for marketplaces.
+- Create consistency with [Shopify’s channel component library](https://github.com/Shopify/channels-ui-docs/tree/ux-content-guidelines#readme) for marketplaces.
