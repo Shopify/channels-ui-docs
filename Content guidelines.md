@@ -4,9 +4,8 @@ We know that your platform has its own voice and tone, and it’s ok to preserve
 
 When you’re creating content for a sales channel, use Shopify’s [voice and tone guide](https://polaris.shopify.com/content/voice-and-tone) to validate your decisions.
 
-> Note
->
-> > When building the channel, use the names of features you have on your platform without altering, so that merchants can recognize them when they leave Shopify admin and use your platform. 
+> Note:
+> When building the channel, don't change the names of features on your platform, so that merchants can recognize them when they leave the Shopify admin and use your platform.
 
 ---
 
@@ -50,7 +49,7 @@ While merchants are setting up their channel they may need to take an action out
 
 ## Important channel updates
 
-If there are new requirements for your channel or important information that merchants need to know, communicate them as early and as directly as possible. Mention the impact on the merchant’s store or sales, if any. Don’t rely on email or external communication, as merchants often miss it.
+If your channel has new requirements or there's other important information that merchants need to know, tell merchants as early and as directly as possible. Mention the impact on the merchant’s store or sales, if any. Don’t rely on email or external communication, as merchants often miss it.
 
 |                                                                                           |                                                                                                 |
 | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -59,7 +58,7 @@ If there are new requirements for your channel or important information that mer
 **Best practices:**
 
 1. Tell the merchants if any action is required of them.
-2. When possible, add a relevant date or time.
+2. Where possible, add the date or time when the update will occur.
 3. Let merchants know how long this announcement may affect them and if there are any consequences.
-4. If there’s ever impact on their store or sales, be upfront.
+4. If there’s ever an impact on the merchant's store or sales, be upfront about it.
 5. Link to a solution or provide documentation on the change.
