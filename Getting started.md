@@ -148,7 +148,7 @@ export default function MyOnboardingPage() {
   };
 
   const handleFinishSetup = () => {
-    // perist that the onboarding is complete in your database
+    // persist that the onboarding is complete in your database
     // redirect merchant to overview page
   };
 
