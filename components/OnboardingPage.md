@@ -13,6 +13,7 @@ Onboarding is a sequence of steps a merchant needs to complete to set up the cha
 | Name       | Type                      | Description                                    | Required |
 | ---------- | ------------------------- | ---------------------------------------------- | -------- |
 | title      | string                    | Page title, in large type                      | Yes      |
+| subtitle   | string                    | Page subtitle, in subdued type below title     |          |
 | children   | ReactNode[]               | The contents of the page                       | Yes      |
 | action     | DisableableLoadableAction | Call to action, rendered as a primary button   | Yes      |
 | breadcrumb | BreadcrumbAction          | Navigation link to return to the previous page | Yes      |
@@ -97,8 +98,35 @@ The onboarding page component should:
     content: 'Back to overview',
   }}
 >
-  <div>Step 1</div>
-  <div>Step 2</div>
+  <OnboardingCard id="step-1" title="Step 1" state="completed" sectioned>
+    <div>step 1 content</div>
+  </OnboardingCard>
+  <OnboardingCard id="step-2" title="Step 2" state="completed" sectioned>
+    <div>step 2 content</div>
+  </OnboardingCard>
+</OnboardingPage>
+```
+
+### Onboarding page with subtitle
+
+```jsx
+<OnboardingPage
+  title="Set up Mockingbird Shopping"
+  subtitle="To start selling your products on Mockingbird please finish the setup process."
+  action={{
+    content: 'Finish setup',
+  }}
+  breadcrumb={{
+    url: '/',
+    content: 'Back to overview',
+  }}
+>
+  <OnboardingCard id="step-1" title="Step 1" state="completed" sectioned>
+    <div>step 1 content</div>
+  </OnboardingCard>
+  <OnboardingCard id="step-2" title="Step 2" state="completed" sectioned>
+    <div>step 2 content</div>
+  </OnboardingCard>
 </OnboardingPage>
 ```
 
@@ -116,8 +144,12 @@ The onboarding page component should:
   }}
   footer="Learn more about the Mockingbird channel"
 >
-  <div>Step 1</div>
-  <div>Step 2</div>
+  <OnboardingCard id="step-1" title="Step 1" state="completed" sectioned>
+    <div>step 1 content</div>
+  </OnboardingCard>
+  <OnboardingCard id="step-2" title="Step 2" state="completed" sectioned>
+    <div>step 2 content</div>
+  </OnboardingCard>
 </OnboardingPage>
 ```
 
@@ -136,8 +168,12 @@ The onboarding page component should:
   }}
   footer="Learn more about the Mockingbird channel"
 >
-  <div>Step 1</div>
-  <div>Step 2</div>
+  <OnboardingCard id="step-1" title="Step 1" state="completed" sectioned>
+    <div>step 1 content</div>
+  </OnboardingCard>
+  <OnboardingCard id="step-2" title="Step 2" state="completed" sectioned>
+    <div>step 2 content</div>
+  </OnboardingCard>
 </OnboardingPage>
 ```
 
@@ -156,8 +192,12 @@ The onboarding page component should:
   }}
   footer="Learn more about the Mockingbird channel"
 >
-  <div>Step 1</div>
-  <div>Step 2</div>
+  <OnboardingCard id="step-1" title="Step 1" state="completed" sectioned>
+    <div>step 1 content</div>
+  </OnboardingCard>
+  <OnboardingCard id="step-2" title="Step 2" state="completed" sectioned>
+    <div>step 2 content</div>
+  </OnboardingCard>
 </OnboardingPage>
 ```
 
