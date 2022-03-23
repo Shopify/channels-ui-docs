@@ -22,12 +22,12 @@ The onboarding info component contains information that is good to know for merc
 
 ### Item
 
-| Name    | Type          | Description                | Required |
-| ------- | ------------- | -------------------------- | -------- |
-| title   | String        | Title content for the item | Yes      |
-| content | React.Element | Item content               | Yes      |
-| iconSrc | SVG           | Source for the item icon   |          |
-| iconAlt | String        | Alt text for the item icon |          |
+| Name    | Type                    | Description                | Required |
+| ------- | ----------------------- | -------------------------- | -------- |
+| title   | String                  | Title content for the item | Yes      |
+| content | React.Element or String | Item content               | Yes      |
+| iconSrc | SVG                     | Source for the item icon   |          |
+| iconAlt | String                  | Alt text for the item icon |          |
 
 ---
 
@@ -78,5 +78,31 @@ The onboarding info component contains information that is good to know for merc
     content: 'I understand',
   }}
   completed
+/>
+```
+
+### With React.ReactNode item content
+
+```jsx
+<OnboardingInfo
+  items={[{title: 'Item 1', content: <>Some React fragment</>}]}
+  description="Some blurb"
+  action={{
+    onAction: () => {},
+    content: 'I understand',
+  }}
+/>
+```
+
+### With string item content
+
+```jsx
+<OnboardingInfo
+  items={[{title: 'Item 1', content: 'Some content'}]}
+  description="Some blurb"
+  action={{
+    onAction: () => {},
+    content: 'I understand',
+  }}
 />
 ```
