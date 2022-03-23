@@ -25,8 +25,8 @@ To use the React components you need to wrap your React app in the `ExtendedAppP
 1. Import Polaris and Channels UI CSS directly into your project:
 
 ```jsx
-import '@shopify/polaris/dist/styles.css';
-import '@shopify/channels-ui/dist/styles.css';
+import '@shopify/polaris/build/esm/styles.css';
+import '@shopify/channels-ui/build/esm/styles.css';
 ```
 
 2. Include the translations and any Polaris or Channel UI components in your project:
