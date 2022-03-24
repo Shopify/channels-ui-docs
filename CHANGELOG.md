@@ -4,6 +4,23 @@ All notable changes to `@shopify/channels-ui` will be documented in this file.
 
 ---
 
+## 1.0.0 - 2022-03-24
+
+### New components
+
+- Added `FeedbackCard` component
+- Added `ActionCardSection` component
+
+### Enhancements
+
+- [FeatureCard] Added optional icon prop and made children prop optional
+- [OnboardingCard] Updated title styling
+- [HelpCard] Updated title styling
+
+### Bug fixes
+
+- [AccountConnection] Fixed account connection wrapping with long content
+
 ## 0.3.0 - 2022-03-23
 
 ### Breaking changes
