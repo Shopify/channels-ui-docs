@@ -10,18 +10,19 @@ Feature cards are used to advertise and explain a feature or an offer of the cha
 
 ## Props
 
-| Name            | Type           | Description                                              | Default | Required |
-| --------------- | -------------- | -------------------------------------------------------- | ------- | -------- |
-| children        | ReactNode      | The visual media to display in the card                  |         | Yes      |
-| title           | string         | The card heading content                                 |         | Yes      |
-| titleElement    | HeadingTagName | The card heading element                                 | h2      |          |
-| feature         | string         | The card subheading content                              |         | Yes      |
-| featureElement  | HeadingTagName | The card subheading element                              | h3      |          |
-| description     | string         | The card body content                                    |         | Yes      |
-| primaryAction   | Action         | The main call to action, rendered as a basic button      |         | Yes      |
-| secondaryAction | Action         | The secondary call to action, rendered as a plain button |         |          |
-| portrait        | boolean        | Whether the card content should be laid out vertically   | false   |          |
-| badgeText       | string         | Text to render in the badge                              |         |          |
+| Name            | Type                 | Description                                              | Default | Required |
+| --------------- | -------------------- | -------------------------------------------------------- | ------- | -------- |
+| children        | ReactNode            | The visual media to display in the card                  |         |          |
+| title           | string               | The card heading content                                 |         | Yes      |
+| titleElement    | HeadingTagName       | The card heading element                                 | h2      |          |
+| feature         | string               | The card subheading content                              |         | Yes      |
+| featureElement  | HeadingTagName       | The card subheading element                              | h3      |          |
+| description     | string               | The card body content                                    |         | Yes      |
+| primaryAction   | Action               | The main call to action, rendered as a basic button      |         | Yes      |
+| secondaryAction | Action               | The secondary call to action, rendered as a plain button |         |          |
+| portrait        | boolean              | Whether the card content should be laid out vertically   | false   |          |
+| badgeText       | string               | Text to render in the badge                              |         |          |
+| icon            | string or IconSource | SVG code as a string or url to display optional icon     |         |          |
 
 HeadingTagName = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p'
 
@@ -45,6 +46,7 @@ HeadingTagName = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p'
 - The first feature you show should fit the largest number of merchants e.g. “Free organic search” is suitable for any merchant at any stage of the business.
 - If the merchant arrived from a specific callout (like marketing or blog), dynamically place the feature mentioned in the callout at the top.
 - Use badges to provide hierarchy and adapt to merchant’s unique needs.
+- Icon prop should only be used if visual media is not being used.
 
 ---
 
@@ -171,6 +173,55 @@ HeadingTagName = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p'
     src="https://burst.shopifycdn.com/photos/woman-holding-phone-browsing-social-media.jpg?width=500"
   />
 </FeatureCard>
+```
+
+### Feature card with icon (svg string)
+
+```jsx
+<FeatureCard
+  title="Sell your products on Mockingbird"
+  feature="Mockingbird shop"
+  description="Bring the look and feel of your Shopify store to Mockingbird Shops, and create custom collections."
+  primaryAction={{
+    content: 'Start setup',
+  }}
+  badgeText="Free"
+  icon="<svg viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10zM7.707 8.707a1 1 0 11-1.414-1.414 1 1 0 011.414 1.414zm4.586-1.414a1 1 0 111.414 1.414 1 1 0 01-1.414-1.414zm.011 4.988c-.03.03-.786.72-2.304.72-1.497 0-2.252-.67-2.303-.718a1 1 0 00-1.404 1.424C6.425 13.84 7.653 15 10 15c2.346 0 3.575-1.16 3.707-1.293a.993.993 0 00.005-1.397 1.006 1.006 0 00-1.408-.029z' /></svg>"
+/>
+```
+
+### Feature card with icon (imported icon)
+
+```jsx
+<FeatureCard
+  title="Sell your products on Mockingbird"
+  feature="Mockingbird shop"
+  description="Bring the look and feel of your Shopify store to Mockingbird Shops, and create custom collections."
+  primaryAction={{
+    content: 'Start setup',
+  }}
+  icon={ActivitiesMajor}
+/>
+```
+
+### Feature card with icon (url)
+
+```jsx
+<FeatureCard
+  title="Sell your products on Mockingbird"
+  feature="Mockingbird shop"
+  description="Bring the look and feel of your Shopify store to Mockingbird Shops, and create custom collections."
+  primaryAction={{
+    content: 'Start setup',
+  }}
+  icon={() => (
+    <img
+      width="20px"
+      height="20px"
+      src="https://cdn.shopify.com/s/files/applications/532861601aa89a5e70f5d56d075e82ac_512x512.png"
+    />
+  )}
+/>
 ```
 
 ### Feature card with badge and secondary action
