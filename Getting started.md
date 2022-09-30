@@ -275,7 +275,7 @@ Here is an example of a simple overview page for a channel with a single feature
 import React from 'react';
 import {
   OverviewPage,
-  ProductSyncSection,
+  ProductStatusSection,
   FeatureListCard,
 } from '@shopify/channels-ui';
 
@@ -292,7 +292,7 @@ export default function MyOverviewPage() {
   return (
     <OverviewPage title="Mockingbird channel overview">
       <OverviewPage.Section title="Product status on Mockingbird">
-        <ProductSyncSection
+        <ProductStatusSection
           summary={`${availableProductCount} products are available to the Mockingbird channel`}
           manageAction={{
             content: 'Manage availability',
