@@ -12,13 +12,13 @@ or
 npm install --save @shopify/channels-ui
 ```
 
-Shopify Channels UI offers a set of React components for use in your app, in addition to those provided by [Shopify Polaris](https://polaris.shopify.com/components/get-started). This is a great option if you are building your app in React and want to follow Shopify's channel best practices.
+Shopify Channels UI offers a set of React components for use in your app, in addition to those provided by [Shopify Polaris](https://polaris.shopify.com/components). This is a great option if you are building your app in React and want to follow Shopify's channel best practices.
 
 ## Getting started
 
 > In the following example, you need to store shopOrigin during the authentication process and then retrieve it for the code to work properly. To learn more about this process, see [Getting and storing the shop origin](https://shopify.dev/apps/auth/oauth).
 
-To use the React components you need to wrap your React app in the `ExtendedAppProvider` provided by Channels UI. This also adds the [Polaris App Provider](https://polaris.shopify.com/components/structure/app-provider), and [App Bridge Provider](https://shopify.dev/apps/tools/app-bridge/react-components/provider), so you do not need to add these providers again. Only one `ExtendedAppProvider` is needed for your application.
+To use the React components you need to wrap your React app in the `ExtendedAppProvider` provided by Channels UI. This also adds the [Polaris App Provider](https://polaris.shopify.com/components/utilities/app-provider), and [App Bridge Provider](https://shopify.dev/apps/tools/app-bridge/react-components/provider), so you do not need to add these providers again. Only one `ExtendedAppProvider` is needed for your application.
 
 ```javascript
 import React from 'react';
@@ -50,7 +50,7 @@ document.body.appendChild(root);
 ReactDOM.render(<MyApp />, root);
 ```
 
-The `polaris` prop is an object that accepts all props from the [Polaris App Provider](https://polaris.shopify.com/components/structure/app-provider)
+The `polaris` prop is an object that accepts all props from the [Polaris App Provider](https://polaris.shopify.com/components/utilities/app-provider)
 
 > The tutorial above uses English locale files, but you can import other locales from Polaris and Channels UI depending on what language you want to display to the merchant.
 

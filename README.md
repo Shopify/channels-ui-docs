@@ -20,7 +20,7 @@ yarn add @shopify/channels-ui
 
 ### Usage 
 
-To use the React components you need to wrap your React app in the `ExtendedAppProvider` provided by Channels UI. This also adds the [Polaris App Provider](https://polaris.shopify.com/components/structure/app-provider), and [App Bridge Provider](https://shopify.dev/apps/tools/app-bridge/react-components/provider), so you do not need to add these providers again. Only one `ExtendedAppProvider` is needed for your application.
+To use the React components you need to wrap your React app in the `ExtendedAppProvider` provided by Channels UI. This also adds the [Polaris App Provider](https://polaris.shopify.com/components/utilities/app-provider), and [App Bridge Provider](https://shopify.dev/apps/tools/app-bridge/react-components/provider), so you do not need to add these providers again. Only one `ExtendedAppProvider` is needed for your application.
 
 1. Import Polaris and Channels UI CSS directly into your project:
 
