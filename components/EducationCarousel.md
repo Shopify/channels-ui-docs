@@ -6,7 +6,7 @@ name: EducationCarousel
 
 A carousel to display educational information on how to succeed with the channel.
 
-Related Polaris components: [Card](https://polaris.shopify.com/components/layout-and-structure/legacy-card)
+Related Polaris components: [Card](https://polaris.shopify.com/components/layout-and-structure/card)
 
 ---
 
