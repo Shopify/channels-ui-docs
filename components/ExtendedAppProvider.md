@@ -34,7 +34,7 @@ Wrapper provider to initialize Polaris, App Bridge, and Channels-UI translations
 | i18n          | TranslationDictionary | A locale object imported from `@shopify/polaris/locales`           | Yes      |
 | linkComponent | ComponentType         | A custom component to use for all links used by Polaris components |          |
 
-[Learn more](https://polaris.shopify.com/components/structure/app-provider)
+[Learn more](https://polaris.shopify.com/components/utilities/app-provider)
 
 ---
 
