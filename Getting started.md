@@ -237,7 +237,7 @@ The goal of the overview page is to serve as a channel’s home page. It gives m
 3. Available channel features
 4. Resources and tutorials 
 
-### Product Sync Section
+### Product Status Section
 
 This component gives merchants an overview of their products and their status on the channel. It should also provide a link to the bulk editor so merchants can easily manage which products they make available to your channel. If your channel has product requirements, merchants should be able to quickly glance at the card and understand how many products are in good standing, versus requiring additional attention to get them successfully synced onto the channel.
 
@@ -275,7 +275,7 @@ Here is an example of a simple overview page for a channel with a single feature
 import React from 'react';
 import {
   OverviewPage,
-  ProductSyncSection,
+  ProductStatusSection,
   FeatureListCard,
 } from '@shopify/channels-ui';
 
@@ -292,7 +292,7 @@ export default function MyOverviewPage() {
   return (
     <OverviewPage title="Mockingbird channel overview">
       <OverviewPage.Section title="Product status on Mockingbird">
-        <ProductSyncSection
+        <ProductStatusSection
           summary={`${availableProductCount} products are available to the Mockingbird channel`}
           manageAction={{
             content: 'Manage availability',
